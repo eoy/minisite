@@ -168,7 +168,7 @@ namespace :deploy do
     end
   end
 
-  before "deploy", "deploy:check_revision"
+  # before "deploy", "deploy:check_revision"
   # before "deploy", "deploy:ts:stop"
   # after "deploy", "deploy:ts:rebuild"
 end
